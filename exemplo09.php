@@ -16,4 +16,10 @@ class Filme
         $this->saldo = $this->saldo + $valor;
     }
 }
+
+$filme = new Filme("Planeta dos macacos", 10);
+$filme->incrementarSaldo(5);
+
+echo "Nome do Filme: $filme->nome <br>";
+echo "Saldo disponivel: $filme->saldo";
 ?>

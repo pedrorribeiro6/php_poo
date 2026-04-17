@@ -23,7 +23,6 @@ class Carro {
 
 // --- TESTE DO VEÍCULO ---
 $meuCarro = new Carro("Senai-Mobile", 0);
-
 $meuCarro->setVelocidade(5000); // inválido
 $meuCarro->setVelocidade(-60);  // inválido
 $meuCarro->setVelocidade(120);  // válido

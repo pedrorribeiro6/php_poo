@@ -5,7 +5,7 @@ class Carro {
 
     public function __construct($modelo, $velocidade) {
         $this->modelo = $modelo;
-        $this->setVelocidade($velocidade); // usa validação
+        $this->setVelocidade($velocidade); 
     }
 
     public function getVelocidade(){
@@ -24,7 +24,6 @@ class Carro {
 // --- TESTE DO VEÍCULO ---
 $meuCarro = new Carro("Senai-Mobile", 0);
 
-// ✅ Agora usando o setter corretamente
 $meuCarro->setVelocidade(5000); // inválido
 $meuCarro->setVelocidade(-60);  // inválido
 $meuCarro->setVelocidade(120);  // válido
